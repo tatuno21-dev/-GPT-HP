@@ -130,3 +130,43 @@ body{min-width:320px;overflow-wrap:break-word}
   .google-form-wrap{min-height:760px}
   .google-form-wrap iframe{height:760px}
 }
+
+/* UNION contact and company identity */
+.contact{background:#14213f;color:#fff;--line:#45516a}
+.contact .contact-grid{grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:7%;align-items:start}
+.contact-details{min-width:0}
+.union-signature{display:flex;align-items:center;gap:24px;margin-bottom:34px}
+.union-logo-crop{position:relative;display:block;flex:0 0 auto;width:125px;height:190px;overflow:hidden;background:#fff}
+.union-logo-crop img{position:absolute;width:372px;max-width:none;height:auto;left:-124px;top:-115px}
+.union-signature .union-logo-crop{border-radius:3px}
+.union-signature .eyebrow{font-size:11px;color:#bac6dc;letter-spacing:.12em}
+.union-signature p{font-size:15px;margin:12px 0 0}
+.contact-mail{font-size:18px;border-color:#7f8ba4;gap:16px}
+.contact-mail:hover{color:#d9e3f7}
+.google-form-wrap{min-width:0;background:#fff;border:1px solid #d9dfe9;border-radius:8px;box-shadow:0 24px 60px #070f252b;overflow:hidden}
+.form-brand-heading{color:#14213f;padding:27px 30px 24px;border-bottom:1px solid #e4e8ee;border-top:5px solid #7c8dac;background:#fff}
+.form-brand-heading>span{font:600 11px 'Karla',sans-serif;letter-spacing:.16em;color:#61708c}
+.form-brand-heading p{font-size:22px;font-weight:600;margin:6px 0 0;line-height:1.5}
+.google-form-wrap iframe{height:1160px}
+footer.union-footer{padding:65px var(--pad) 25px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:45px;color:#14213f;background:#fff}
+footer.union-footer>div{margin:0;order:initial;width:auto;display:flex;font-size:inherit}
+footer.union-footer .union-company{flex-direction:row;gap:30px;align-items:center}
+.union-company-copy .eyebrow{color:#778298;font-size:11px}
+.union-company-copy h2{font-size:22px;margin-top:10px;font-weight:600}
+.union-company-copy p{font-size:13px;color:#67728a;margin:10px 0 0}
+.union-company-copy .text-link{font-size:12px;padding:8px 0;gap:30px;margin-top:14px}
+.union-instagram{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:28px;border:1px solid #dfe4ed;background:#f7f8fb;border-radius:6px;transition:border-color .2s}
+.union-instagram:hover{border-color:#14213f}
+.instagram-copy{min-width:0}
+.instagram-copy>.eyebrow{font-size:10px;letter-spacing:.12em;color:#66728a}
+.instagram-copy h3{font-size:19px;line-height:1.8;margin:12px 0}
+.instagram-handle{font:600 14px 'Karla',sans-serif;white-space:nowrap}
+.instagram-handle>span{margin-left:8px}
+.instagram-copy p{font-size:11px;color:#67728a;line-height:1.8;margin:12px 0 0}
+.instagram-qr{width:154px;height:auto;flex:0 0 auto;background:white;border:8px solid white;border-radius:4px}
+footer.union-footer .union-footer-bottom{grid-column:1/-1;flex-direction:row;justify-content:space-between;align-items:center;border-top:1px solid #e4e8ee;padding-top:24px;margin-top:5px}
+.union-footer-bottom>span{font:400 11px 'Karla',sans-serif;color:#67728a}
+@media(max-width:1100px){footer.union-footer{grid-template-columns:1fr}.union-instagram{max-width:620px;width:100%}}
+@media(max-width:900px){.contact .contact-grid{grid-template-columns:1fr;gap:38px}.contact-details{display:grid;grid-template-columns:1fr 1fr;gap:0 24px}.union-signature{grid-row:1/4;margin:0}.contact-mail{font-size:16px}.contact-address{font-size:12px}.phone{margin-top:20px}}
+@media(max-width:600px){.contact-details{display:block}.union-signature{margin-bottom:24px;gap:20px}.contact-mail{font-size:17px}.form-brand-heading{padding:22px}.google-form-wrap iframe{height:1280px}footer.union-footer{padding-top:42px;gap:30px}footer.union-footer .union-company{gap:20px}.union-company-copy h2{font-size:19px}.union-company-copy p{font-size:11px}.union-instagram{padding:20px;gap:14px}.instagram-qr{width:135px}.instagram-copy h3{font-size:16px}.instagram-copy>.eyebrow{font-size:9px}.instagram-handle{font-size:13px}}
+@media(max-width:380px){.union-instagram{padding:16px;gap:10px}.instagram-qr{width:115px}.instagram-copy h3{font-size:14px}.instagram-handle{font-size:11px}footer.union-footer .union-company{gap:14px}.union-company-copy h2{font-size:17px}.union-company-copy p{font-size:10px}}
