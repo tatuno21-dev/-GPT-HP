@@ -76,4 +76,19 @@ body{background:#fff;color:#11151b;text-rendering:optimizeLegibility}
 }
 @media(max-width:380px){.hero-lines h1{font-size:33px}.hero-lines p{font-size:13px;letter-spacing:.015em}.trust-sectors{font-size:19px}.trust-message{font-size:28px}.section-label span:last-child{font-size:10px}}
 @keyframes char-in-mobile{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:none}}
+.history-lead h2>span{display:block}
+.history-title-line{white-space:nowrap}
+@media(min-width:1001px){
+  .history-lead,.trust-heading{grid-template-columns:minmax(380px,1fr) minmax(320px,.82fr);column-gap:clamp(76px,8vw,135px)}
+  .history-lead h2{font-size:clamp(36px,3.55vw,54px)}
+  .history-lead>p,.trust-heading>p{justify-self:end;width:100%;max-width:540px;padding-left:clamp(10px,1.25vw,24px)}
+  .trust-sectors{font-size:clamp(25px,2.8vw,43px);letter-spacing:.035em}
+}
+@media(min-width:1001px) and (max-width:1180px){
+  .history-lead,.trust-heading{grid-template-columns:minmax(360px,.95fr) minmax(310px,.85fr);column-gap:clamp(65px,6.5vw,86px)}
+  .history-lead h2{font-size:clamp(35px,3.35vw,42px)}
+  .trust-sectors{font-size:clamp(24px,2.55vw,31px)}
+}
+@media(max-width:1000px){.history-title-line{white-space:normal}.history-lead h2>span{display:block}.trust-heading>p{margin-top:4px}}
+@media(max-width:700px){.history-title-line{white-space:nowrap}.history-lead h2{font-size:clamp(27px,7.9vw,37px)}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.hero-lines h1 .char,.hero-lines p{opacity:1;transform:none;filter:none}.reveal-ready{opacity:1;transform:none}}
