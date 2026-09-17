@@ -170,3 +170,15 @@ footer.union-footer .union-footer-bottom{grid-column:1/-1;flex-direction:row;jus
 @media(max-width:900px){.contact .contact-grid{grid-template-columns:1fr;gap:38px}.contact-details{display:grid;grid-template-columns:1fr 1fr;gap:0 24px}.union-signature{grid-row:1/4;margin:0}.contact-mail{font-size:16px}.contact-address{font-size:12px}.phone{margin-top:20px}}
 @media(max-width:600px){.contact-details{display:block}.union-signature{margin-bottom:24px;gap:20px}.contact-mail{font-size:17px}.form-brand-heading{padding:22px}.google-form-wrap iframe{height:1280px}footer.union-footer{padding-top:42px;gap:30px}footer.union-footer .union-company{gap:20px}.union-company-copy h2{font-size:19px}.union-company-copy p{font-size:11px}.union-instagram{padding:20px;gap:14px}.instagram-qr{width:135px}.instagram-copy h3{font-size:16px}.instagram-copy>.eyebrow{font-size:9px}.instagram-handle{font-size:13px}}
 @media(max-width:380px){.union-instagram{padding:16px;gap:10px}.instagram-qr{width:115px}.instagram-copy h3{font-size:14px}.instagram-handle{font-size:11px}footer.union-footer .union-company{gap:14px}.union-company-copy h2{font-size:17px}.union-company-copy p{font-size:10px}}
+
+/* Link to the separate company profile page */
+.company-banner{position:relative;display:grid;grid-template-columns:.65fr 1.35fr auto;align-items:end;gap:5vw;min-height:370px;padding:70px var(--pad);overflow:hidden;background:#14213f;color:#fff;border-top:1px solid #34415e;transition:background-color .35s ease}
+.company-banner:before{content:'UNION';position:absolute;right:-.03em;bottom:-.34em;font:800 clamp(150px,23vw,370px)/1 'Karla',sans-serif;letter-spacing:-.08em;color:#fff;opacity:.045;pointer-events:none}
+.company-banner:hover{background:#1b2b52}
+.company-banner-index{align-self:start;font:600 11px 'Karla',sans-serif;letter-spacing:.15em;color:#aebbd2}
+.company-banner-copy{position:relative;z-index:1;display:flex;flex-direction:column;gap:16px}
+.company-banner-copy small{font-size:13px;color:#c4cede;letter-spacing:.08em}
+.company-banner-copy strong{font-size:clamp(28px,4vw,58px);font-weight:600;line-height:1.55;letter-spacing:.025em}
+.company-banner-arrow{position:relative;z-index:1;display:grid;place-items:center;width:76px;height:76px;border:1px solid #73809a;border-radius:50%;font-size:28px;transition:transform .3s ease,background .3s ease}
+.company-banner:hover .company-banner-arrow{transform:translate(5px,-5px);background:#fff;color:#14213f}
+@media(max-width:760px){.company-banner{grid-template-columns:1fr auto;gap:32px;min-height:330px;padding:56px var(--pad)}.company-banner-index{grid-column:1/-1}.company-banner-copy strong{font-size:clamp(25px,7.5vw,34px)}.company-banner-arrow{width:58px;height:58px;font-size:22px}.company-banner:before{font-size:46vw}}
