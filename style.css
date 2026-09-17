@@ -179,6 +179,7 @@ footer.union-footer .union-footer-bottom{grid-column:1/-1;flex-direction:row;jus
 .company-banner-copy{position:relative;z-index:1;display:flex;flex-direction:column;gap:16px}
 .company-banner-copy small{font-size:13px;color:#c4cede;letter-spacing:.08em}
 .company-banner-copy strong{font-size:clamp(28px,4vw,58px);font-weight:600;line-height:1.55;letter-spacing:.025em}
+.company-banner-copy>span{font-size:14px;color:#aebbd2;letter-spacing:.06em}
 .company-banner-arrow{position:relative;z-index:1;display:grid;place-items:center;width:76px;height:76px;border:1px solid #73809a;border-radius:50%;font-size:28px;transition:transform .3s ease,background .3s ease}
 .company-banner:hover .company-banner-arrow{transform:translate(5px,-5px);background:#fff;color:#14213f}
-@media(max-width:760px){.company-banner{grid-template-columns:1fr auto;gap:32px;min-height:330px;padding:56px var(--pad)}.company-banner-index{grid-column:1/-1}.company-banner-copy strong{font-size:clamp(25px,7.5vw,34px)}.company-banner-arrow{width:58px;height:58px;font-size:22px}.company-banner:before{font-size:46vw}}
+@media(max-width:760px){.company-banner{grid-template-columns:1fr auto;gap:32px;min-height:350px;padding:56px var(--pad)}.company-banner-index{grid-column:1/-1}.company-banner-copy strong{font-size:clamp(25px,7.5vw,34px);line-height:1.5}.company-banner-copy>span{font-size:13px}.company-banner-arrow{width:58px;height:58px;font-size:22px}.company-banner:before{font-size:46vw}}
