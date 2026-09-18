@@ -1,0 +1,1 @@
+const b=document.querySelector('header button'),m=document.querySelector('#mobile');b.addEventListener('click',()=>{const o=b.getAttribute('aria-expanded')==='true';b.setAttribute('aria-expanded',String(!o));m.hidden=o});m.querySelectorAll('a').forEach(a=>a.onclick=()=>{m.hidden=true;b.setAttribute('aria-expanded','false')});
