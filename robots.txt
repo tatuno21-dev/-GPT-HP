@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tatuno21-dev.github.io/-GPT-HP/sitemap.xml
