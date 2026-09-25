@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://tatuno21-dev.github.io/-GPT-HP/</loc></url>
-  <url><loc>https://tatuno21-dev.github.io/-GPT-HP/product/</loc></url>
-  <url><loc>https://tatuno21-dev.github.io/-GPT-HP/partners/</loc></url>
-  <url><loc>https://tatuno21-dev.github.io/-GPT-HP/company/</loc></url>
+  <url><loc>https://tatuno21-dev.github.io/-GPT-HP/</loc><lastmod>2026-09-25</lastmod></url>
+  <url><loc>https://tatuno21-dev.github.io/-GPT-HP/product/</loc><lastmod>2026-09-25</lastmod></url>
+  <url><loc>https://tatuno21-dev.github.io/-GPT-HP/partners/</loc><lastmod>2026-09-25</lastmod></url>
+  <url><loc>https://tatuno21-dev.github.io/-GPT-HP/company/</loc><lastmod>2026-09-25</lastmod></url>
+  <url><loc>https://tatuno21-dev.github.io/-GPT-HP/disaster-prevention/</loc><lastmod>2026-09-25</lastmod></url>
+  <url><loc>https://tatuno21-dev.github.io/-GPT-HP/school/</loc><lastmod>2026-09-25</lastmod></url>
+  <url><loc>https://tatuno21-dev.github.io/-GPT-HP/factory/</loc><lastmod>2026-09-25</lastmod></url>
 </urlset>
