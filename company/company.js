@@ -33,3 +33,16 @@ if ('IntersectionObserver' in window && !reduceMotion.matches) {
 
   document.querySelectorAll('.reveal').forEach(element => observer.observe(element));
 }
+
+const heroMotion = document.querySelector('#hero-motion');
+const motionToggle = document.querySelector('.motion-toggle');
+motionToggle.hidden = reduceMotion.matches;
+
+motionToggle.addEventListener('click', () => {
+  const paused = heroMotion.classList.toggle('is-paused');
+  motionToggle.setAttribute('aria-pressed', String(paused));
+});
+
+reduceMotion.addEventListener('change', event => {
+  motionToggle.hidden = event.matches;
+});
